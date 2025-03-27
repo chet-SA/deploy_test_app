@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: "secret_key"
+  name: "cookie_monster"
+credentials:
+  usernames:
+    cdc:
+      email: "cdc011235@gmail.com"
+      failed_login_attempts: 0
+      first_name: "Killer"
+      last_name: "Rabbit"
+      logged_in: False
+      password: def  # Plain text; will be hashed automatically if auto_hash=True
+      roles:
+        - admin
+        - editor
+        - viewer
